@@ -1,9 +1,13 @@
 import React from 'react';
-import hello from './greeting.js';
+import './App.css'
+import Products from './Component/Products'
+import Welcome from './Component/Welcome';
 function App() {
   return (
     <div className="App">
-     <hello></hello>
+      <Welcome></Welcome>
+     <Products></Products>
+     
     </div>
   );
 }
